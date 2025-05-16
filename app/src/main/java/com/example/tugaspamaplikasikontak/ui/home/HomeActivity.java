@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -49,6 +50,11 @@ public class HomeActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerView);
         Button addButton = findViewById(R.id.addButton);
         Button logoutButton = findViewById(R.id.logoutButton);
+        TextView emailTextView = findViewById(R.id.emailTextView);
+
+        // Set the email text
+        String userEmail = mAuth.getCurrentUser().getEmail();
+        emailTextView.setText("Login sebagai: " + userEmail);
 
         contactList = new ArrayList<>();
         adapter = new ContactAdapter(this, contactList, mAuth.getCurrentUser().getUid());
