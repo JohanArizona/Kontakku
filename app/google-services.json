@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "343398577483",
+    "firebase_url": "https://tugas-pam-contact-default-rtdb.firebaseio.com",
+    "project_id": "tugas-pam-contact",
+    "storage_bucket": "tugas-pam-contact.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343398577483:android:e770a9c7b15937db29a4ce",
+        "android_client_info": {
+          "package_name": "com.example.tugaspamaplikasikontak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8cJfQOPbwVYzx9-GVA2orOTytb7QbUS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
